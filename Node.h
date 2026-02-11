@@ -39,7 +39,7 @@ int dequeue(NodePtr* head, NodePtr* tail){
     int value= t->data;
    /* Finish dequeue*/
    //normal case
-    *head=t->nextPtr;
+    *head = t->nextPtr;
     free(t);
    
    //last node
@@ -48,7 +48,7 @@ int dequeue(NodePtr* head, NodePtr* tail){
     }
    return value;
    }
-   printf("Empty queue");
+   printf("Empty queue\n");
    return 0;
 }
 

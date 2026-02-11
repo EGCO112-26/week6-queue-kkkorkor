@@ -24,7 +24,6 @@ int main(int argc , char **argv) {
         }
         else {
        enqueue(&headPtr,&tailPtr, atoi(argv[i]));
-           
         }
  }
   return 0;
