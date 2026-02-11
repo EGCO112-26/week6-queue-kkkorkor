@@ -30,8 +30,6 @@ int dequeue_struct(Queue *q){
     q->size--;
 
     if(q->size == 1) q->tailPtr = NULL;
-    q->size--;
-    //free(t);
        /*Finish dequeue */
    return value;
    }
