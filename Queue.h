@@ -29,7 +29,7 @@ int dequeue_struct(Queue *q){
     free(t);
     q->size--;
 
-    if(q->size == 1) q->tailPtr = NULL;
+    if(q->size == 0) q->tailPtr = NULL;
        /*Finish dequeue */
    return value;
    }
