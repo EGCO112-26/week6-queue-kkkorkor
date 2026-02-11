@@ -35,7 +35,7 @@ int dequeue_struct(Queue *q){
        /*Finish dequeue */
    return value;
    }
-   printf("Empty queue");
+   printf("Empty queue\n");
    return 0;
 }
 
